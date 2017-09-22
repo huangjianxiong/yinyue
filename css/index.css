@@ -1,0 +1,126 @@
+/*
+* @Author: Administrator
+* @Date:   2017-05-16 09:28:23
+* @Last Modified by:   czyb
+* @Last Modified time: 2017-06-01 09:11:36
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.top{
+	width: 100%;
+	height: 550px;
+	background-image: url('../img/1.jpg');
+	background-size: cover;
+}
+.top .lyrics{
+	width: 330px;
+	height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.top .lyrics>li{
+	padding: 10px 0 0 0;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+.song,.singer{
+	padding: 10px 0 0 0;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+.top .lyrics .hot{
+	color: #afd;
+	font-size: 18px;
+}
+.mn{
+	width: 100%;
+	height: 110px;
+	background: #000;
+}
+.left{
+	padding-top: 30px;
+	float: left;
+}
+.left>i{
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	font-size: 40px;
+	padding: 0px 0px 0 20px;
+}
+.center{
+	padding-top: 30px;
+	float: left;
+	margin-left: 100px;
+}
+.center>img{
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	margin-left: 20px;
+	float: left;
+}
+.progress{
+	width: 400px;
+	height: 50px;
+	float: left;
+}
+.pTop{
+	width: 400px;
+	height: 25px;
+	color: #fff;
+}
+.info{
+	margin-left: 10px;
+}
+.time{
+	float: right;
+	margin-right: 10px;
+}
+.pBottom{
+	width: 400px;
+	height: 25px;
+}
+.box{
+	width: 380px;
+	height: 5px;
+	background: #fff;
+	border-radius: 3px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.box>.son{
+	width: 0px;
+	height: 100%;
+	background: red;
+	border-radius: 3px;
+}
+.right{
+	padding-top: 30px;
+	float: left;
+}
+.right>i{
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	font-size: 40px;
+	padding: 0px 10px 0px 0px;
+	margin-left: 200px;
+	float: left;
+}
+.right>.as{
+	width: 100px;
+	height: 5px;
+	border-radius: 3px;
+	background: #fff;
+	float: left;
+	margin-top: 20px;
+}
+
+
